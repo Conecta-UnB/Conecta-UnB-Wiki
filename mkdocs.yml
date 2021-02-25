@@ -13,5 +13,5 @@ extra_css:
   - stylesheets/extra.css
 
 nav:
-  - Início: test.md
-  - Teste2: test2.md
+  - Início: homepage.md
+  - Teste2: documento-de-comunicacao.md
