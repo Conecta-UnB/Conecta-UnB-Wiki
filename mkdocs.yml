@@ -1,0 +1,17 @@
+site_name: " "
+theme:
+  name: material
+  logo: logo.png
+  language: pt
+  features:
+    - navigation.instant
+  palette:
+    primary: green
+    accent: green
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - Início: homepage.md
+  - Teste2: documento-de-comunicacao.md
