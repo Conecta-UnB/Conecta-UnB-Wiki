@@ -1,7 +1,6 @@
 site_name: " "
 theme:
   name: material
-  logo: logo.png
   language: pt
   features:
     - navigation.instant
@@ -13,5 +12,5 @@ extra_css:
   - stylesheets/extra.css
 
 nav:
-  - Início: homepage.md
+  - Início: index.md
   - Teste2: documento-de-comunicacao.md
