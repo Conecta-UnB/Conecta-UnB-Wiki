@@ -13,4 +13,5 @@ extra_css:
 
 nav:
   - Início: index.md
-  - Teste2: documento-de-comunicacao.md
+  - Documento de Visão: documento-de-visao.md
+  - Documento de Comunição: documento-de-comunicacao.md
