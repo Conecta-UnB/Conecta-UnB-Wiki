@@ -9,7 +9,7 @@
 | 02/03/2021 | 0.3 | Adição dos tipos de usuários | Rhuan Marques, Júlio Schneider e Sara Campos |
 | 05/03/2021 | 0.4 | Atualização do documento para o Safe essentials | Rhuan Marques, Júlio Schneider e Sara Campos |
 
-## Histórias de usuário
+## Features
 
 | Feature | Benéficios | Critérios de aceitação | Requisitos não funcionais |
 | - | - | - | - |
