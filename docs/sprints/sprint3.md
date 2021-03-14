@@ -25,7 +25,7 @@ Este documento é uma ata da reunião de retrospectiva da sprint 2, e de início
 * Scrum Master: Rhuan Marques
 * Product Owner: Edvan Barreira
 
-## 2ª Pauta: Retrospectiva da sprint 1 (de 22/02 à 28/02)
+## 2ª Pauta: Retrospectiva da sprint 2 (de 01/03 à 07/03)
 
 ### Tópico: Fechamento de sprint
 
@@ -52,7 +52,7 @@ Este documento é uma ata da reunião de retrospectiva da sprint 2, e de início
 * Divisão de tarefas
 * Estudo sobre documentação
 
-## 3ª Pauta: Backlog da sprint 2 (de 01/03 à 07/03)
+## 3ª Pauta: Backlog da sprint 3 (de 08/03 à 14/03)
 
 ### Tópico: Planning Poker
 
