@@ -9,7 +9,7 @@ Os conceitos chave para implementação da estratégia de Git Flow:
 * doc/*: são branches responsáveis pela criação de documentação e/ou revisão de documentação já existente.
 * automation/*: são branches responsáveis pela integração de alguma ferramenta auxiliar ao projeto.
 
-![Imagem do terminal](../docs/assets/branches.png)
+![Imagem do fluxo das branches](../docs/assets/branches.png)
 
 ### Nomenclatura 
 As branches  criadas devem estar relacionadas a uma funcionalidade ou correção, desta forma, atrelada a uma Issue. a descrição da branch deve ser escrita em portugues brasileiro, prefixado pela correspondente chave do Git Flow:
@@ -20,5 +20,5 @@ Exemplo:
 * automation/IssueID-descrição-curta: implementação de ferramentas;
 
 ### Referência
-[Atlassian Bitbucket](https://www.atlassian.com/br/git/tutorials/comparing-workflows/gitflow-workflow)
-[Git Breakdown](https://fga-eps-mds.github.io/2019.2-Git-Breakdown/docs/branches)
+* [Atlassian Bitbucket](https://www.atlassian.com/br/git/tutorials/comparing-workflows/gitflow-workflow)
+* [Git Breakdown](https://fga-eps-mds.github.io/2019.2-Git-Breakdown/docs/branches)

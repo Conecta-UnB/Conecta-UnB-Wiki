@@ -33,7 +33,7 @@ Este documento é uma ata da reunião de retrospectiva da sprint 2, e de início
 | História | Status |
 |--|--|
 | Definição da logo | Concluído |
-| Políticas de commit, criação de branch e pull reques | Concluído |
+| Políticas de commit, criação de branch e pull request | Concluído |
 | Quadro Kanban do Projeto | Concluído |
 | Quadro Lean Inception | Concluído |
 | Estudo das tecnologias | Concluído |
