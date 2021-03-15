@@ -1,4 +1,4 @@
-## Políticas de Branches
+## Política de Branches
 Para garantir um fluxo de trabalho contínuo e de forma padronizada possibilitando o rastreamento das funcionalidades desenvolvidas, será utilizada a estratégia de Git Flow.
 
 Os conceitos chave para implementação da estratégia de Git Flow:
@@ -12,7 +12,8 @@ Os conceitos chave para implementação da estratégia de Git Flow:
 ![Imagem do fluxo das branches](../docs/assets/branches.png)
 
 ### Nomenclatura 
-As branches  criadas devem estar relacionadas a uma funcionalidade ou correção, desta forma, atrelada a uma Issue. a descrição da branch deve ser escrita em portugues brasileiro, prefixado pela correspondente chave do Git Flow:
+As branches  criadas devem estar relacionadas a uma funcionalidade ou correção, desta forma, atrelada a uma Issue. a descrição da branch deve ser escrita em portugues brasileiro, prefixado pela correspondente chave do Git Flow.
+
 Exemplo:
 * doc/IssueID-descrição-curta: documentações;
 * feature/IssueID-descrição-curta:  funcionalidades;

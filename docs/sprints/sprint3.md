@@ -69,5 +69,5 @@ Este documento é uma ata da reunião de retrospectiva da sprint 2, e de início
 
 | Pareamento | Histórias |
 |--|--|
-| Edvan, Júlio,  e Sara | Ambiente de desenvolvimento backend e frontend |
+| Edvan, Júlio e Sara | Ambiente de desenvolvimento backend e frontend |
 | João e Rhuan | Revisão de documentação da Unidade 2, atualização do roadmap e documento de arquitetura |

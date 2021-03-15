@@ -36,6 +36,7 @@ Este documento é uma ata da reunião de retrospectiva da sprint 3, e de início
 | Documento de arquitetura | Concluído |
 | Ambiente do backend com dockerização | Concluído |
 | Ambiente do frontend com dockerização | Concluído |
+| Revisão de documentação da Unidade 2 | Concluído |
 
 ### Tópico: Pontos positivos
 
@@ -70,5 +71,5 @@ Este documento é uma ata da reunião de retrospectiva da sprint 3, e de início
 
 | Pareamento | Histórias |
 |--|--|
-| João, Júlio,  e Sara | Modelagem e criação do banco de dados |
+| João, Júlio e Sara | Modelagem e criação do banco de dados |
 | Edvan e Rhuan | Protótipo, criação das páginas de login e cadastro e estudo sobre deploy |

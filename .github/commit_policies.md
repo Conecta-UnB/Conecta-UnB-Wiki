@@ -6,16 +6,18 @@ O trabalho deve ser dividido em commits pequenos e significativos, sendo que cad
 ### Regra 50/72
 As mensagens devem possuir no máximo 50 caracteres, caso seja necessário uma mensagem melhor, escreva um resumo de até 50 caracteres, adicione uma linha em branco e descreva melhor o commit em quantas linhas forem necessárias, porém cada linha deve respeitar o tamanho máximo de 72 caracteres. Caso seu commit necessite mais espaço que isso ele não é atômico.
 
-### anatomia do commit
+### Anatomia do commit
 A anatomia do commit deve seguir o seguinte padrão.
+
 **Formato:**
 
 > assunto
-> <corpo>
+>
+> \<corpo>
 
 ##### Assunto
 * Máximo de 50 caracteres
 * Tipo de escopo devem estar em letras minúsculas
 
-Exemplos:
+Exemplo:
 Adição do documento de Sprint 
