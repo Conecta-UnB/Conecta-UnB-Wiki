@@ -24,7 +24,5 @@ nav:
       - Sprint 2: sprints/sprint2.md
       - Sprint 3: sprints/sprint3.md
       - Sprint 4: sprints/sprint4.md
-  - Backlogs:
-      - Backlog de programa: backlog_program.md
-      - Backlog de time: backlog_team.md
+  - Backlog do produto: product_backlog.md
   - Roadmap: roadmap.md

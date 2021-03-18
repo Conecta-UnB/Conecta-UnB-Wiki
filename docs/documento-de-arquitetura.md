@@ -1,3 +1,5 @@
+# Documento de arquitetura
+
 ## Histórico de versão
 
 | Data | Versão | Descrição | Autor |
@@ -18,6 +20,7 @@ A ConectaUnB é uma aplicação web responsável por organizar as informações 
 
 ## Implementação
 O modelo de arquitetura proposto no projeto é um modelo multicamadas, sendo composto por três camadas principais:
+
 * **Visão:** camada em que os dados são visualizados a partir de uma interface gráfica implementada.
 * **Controladora:** camada em que há o tratamento e interpretação dos eventos gerados por dispositivos de entrada.
 * **Modelo:** camada que há persistência dos dados, sendo composta pelo banco de dados.
@@ -29,7 +32,7 @@ A comunicação entre as camadas é feita pelo modelo de arquitetura cliente-ser
 * **Node.js:** Pode ser definido com um ambiente de execução Javascript server-side, sendo possível rodar uma aplicação standalone em uma máquina, não dependendo de um browser parar a execução.
 
 * **React:** Biblioteca JavaScript mantida pelo Facebook com foco em criar interfaces de usuários em páginas web.
-* Express JS: Framework para Node.js, utilizado no back-end para o gerenciamento de rotas, middleware e de outras funções, facilitando a criação de API 's. Sendo responsável por realizar a conexão entre as camadas de persistência e de controle com a camada de visão.
+* **Express JS:** Framework para Node.js, utilizado no back-end para o gerenciamento de rotas, middleware e de outras funções, facilitando a criação de API 's. Sendo responsável por realizar a conexão entre as camadas de persistência e de controle com a camada de visão.
 
 * **Jest:** Framework de testes criado pelo Facebook projetado para garantir a correção de código Javascript.
 
