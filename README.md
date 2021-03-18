@@ -4,7 +4,9 @@
 
 ## Repositórios de código fonte
 
-Futuramente será inserido aqui os repositórios de código fonte do projeto
+### [Front-end](https://github.com/Conecta-UnB/2020.2-Conecta-Unb-Frontend)
+
+### [Back-end](https://github.com/Conecta-UnB/Conecta-Unb-Backend)
 
 ## Como testar o github pages
 
