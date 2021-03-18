@@ -4,8 +4,7 @@
 | ------ | ---------- | ------------- | -------- |
 | 26/02/2021 | 0.1 | Criação do documento | João Lopes, Rhuan Marques e Sara Campos |
 | 11/03/2021 | 0.2 | Atualização do roadmap | João Lopes e Rhuan Marques |
-
-## Roadmap
+| 18/03/2021 | 0.3 | Alteração das tarefas Sprint 4, 5 e 6 | Júlio Schneider, João Lopes, Sara Campos, Rhuan Marques |
 
 ### Sprint 0 (15/02 - 21/02)
 * Documento de visão
@@ -36,16 +35,19 @@
 ### Sprint 4 (15/03 - 21/03)
 * Protótipo de alta fidelidade
 * Criação do banco de dados
-* Criação das páginas de login e cadastro
+* Criação de template para formulários no front
+* Estudo sobre o deploy
 
 ### Sprint 5 (22/03 - 28/03)
-* Criação de notícia
-* Criação de eventos
+
 * Hospedagem do site
-* Criação do CRUD de usuário
+* Cadastro do usuário
+* Login Usuário
 
 ### Sprint 6 (29/03 - 04/04)
-* Conectar frontend com backend
+
+* Criação de notícia
+* Criação de eventos
 * Visualizar notícia
 * Visualizar eventos
 
