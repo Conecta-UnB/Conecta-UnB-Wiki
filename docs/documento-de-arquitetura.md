@@ -56,6 +56,7 @@ Estrutura de pacotes front-end.
 #### Banco de dados
 Modelagem da estrutura do banco de dados
 
+![DE-R](assets/der.png)
 
 ## Metas e restrições arquiteturais
 
