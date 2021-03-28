@@ -9,6 +9,7 @@
 | 02/03/2021 | 0.3 | Adição dos tipos de usuários | Rhuan Marques, Júlio Schneider e Sara Campos |
 | 05/03/2021 | 0.4 | Atualização do documento para o Safe essentials | Rhuan Marques, Júlio Schneider e Sara Campos |
 | 18/03/2021 | 0.5 | Adição de épicos e conversão em um único documento | João Vitor Lopes, Júlio Schneider e Sara Campos |
+| 28/03/2021 | 0.6 | Adicionando tabela de requisitos não funcionais | Sara Campos, Júlio Schneider, João Lopes, Rhuan Marques e Edvan Gomes | 
 
 ## Épicos
 
@@ -69,3 +70,17 @@
 | [F11](https://github.com/Conecta-UnB/Conecta-UnB-Wiki/issues/17) | [US21](https://github.com/Conecta-UnB/Conecta-UnB-Wiki/issues/22) | - Recepção dos dados que devem ser excluídos | Eu como administrador desejo deletar um tópico de discussão com o objetivo de desfazer/encerrar o debate |
 | [F12](https://github.com/Conecta-UnB/Conecta-UnB-Wiki/issues/18) | [US22](https://github.com/Conecta-UnB/Conecta-UnB-Wiki/issues/21) | - Criação da página de formulário de denúncia <br> - Envio do formulário de denúncia para o banco de dados <br> - Disponibilização da denúncia para o administrador | Eu como visitante desejo denunciar um tópico/comentário do fórum com o objetivo de solicitar revisão dos administradores |
 | [F12](https://github.com/Conecta-UnB/Conecta-UnB-Wiki/issues/18) | [US23](https://github.com/Conecta-UnB/Conecta-UnB-Wiki/issues/19) | - Envio do comentário do usuário ao banco de dados <br> - Disponibilização do comentário do usuário | Eu como participante desejo comentar num tópico de discussão com o objetivo de interagir num debate |
+
+## Requisitos não funcionais
+
+| Identificador | Requisitos |
+| - | - |
+| RNF01 | Criação do git | 
+| RNF02 | Ambiente de desenvolvimento backend |
+| RNF03 | Ambiente de desenvolvimento frontend |
+| RNF04 | Criação do banco de dados |
+| RNF05 |  Criação de template para forms no front |
+| RNF06 | Hospedagem do site |
+| RNF07 | Validação de formulários | 
+| RNF08 | Segurança de dados de usuário |
+| RNF09 | Autenticação de usuários |
