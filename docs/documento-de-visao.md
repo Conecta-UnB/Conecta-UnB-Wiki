@@ -7,6 +7,8 @@
 |--------|-----------|---------------|---------|
 | 11/02/2021 | 0.1 | Proposta de projeto e criação do documento | Edvan Gomes<br> Rhuam Marques<br> João Lopes<br> Júlio Schneider<br> Sara Campos |
 | 17/02/2021 | 1.0 | Finalização do documento | Júlio Schneider<br> Sara Campo<br> João Lopes |
+| 10/03/2021 | 1.2 | Atualização do documento | João Lopes e Rhuan Marques |
+| 31/03/2021 | 1.3 | Atualização do documento | João Lopes |
 
 ## Introdução
 
@@ -46,7 +48,7 @@ Tendo em vista a carência de um meio de fácil acesso à informação que permi
 
 ### Mínimo produto viável
 
-O MVP do projeto, são três páginas, uma que permite ao usuário ter acesso á notícias e eventos da FGA, outra que apresenta informações das EJ's, EC's e laboratórios e por último uma página que apresenta fóruns de discussões sobre tópicos relevantes a faculdade. Esse MVP deverá ser disponibilizado para um ou mais usuários o qual será entregue um feedback sobre as funcionalidades.  
+O MVP do projeto, consiste em possibilitar que os usuários (membros da comunidade da FGA) possam criar e visualizar as notícias, eventos,e informações sobre as EJ's, EC's e laboratórios. Além de criar tópicos de discussão no fórum e poder comentar neles. Esse MVP deverá ser disponibilizado para alguns alunos da FGA, o qual será entregue um feedback sobre as funcionalidades. 
 
 ## Visão geral do produto
 
@@ -85,29 +87,71 @@ O MVP do projeto, são três páginas, uma que permite ao usuário ter acesso á
 
 ### Planejamento das fases e iterações do projeto
 
-O projeto será feito de acordo com o metodologia SCRUM, tendo período de Sprint de uma semana, onde ao final da sprint deve-se gerar um artefato que agrega ao produto, logo um modelo incremental, a Sprint 0 do projeto teve início no dia 14 de fevereiro, histórias que serão realizadas nas sprint estão presentes no backlog de equipe, a organização das atividades dos backlogs serão relizadas por meio de um Kanban. Além disso, pelo projeto estar ligado à disciplina de Requisitos da UNB - FGA, será necessário gerar certos produtos de acordo com a necessidade da disciplina. Esses produtos e datas são:
+O projeto será feito de acordo com o metodologia SCRUM, tendo período de Sprint de uma semana, onde ao final da sprint deve-se gerar um artefato que agrega ao produto, logo um modelo incremental, a Sprint 0 do projeto teve início no dia 14 de fevereiro, histórias que serão realizadas nas sprint estão presentes no backlog de equipe, a organização das atividades dos backlogs serão realizadas por meio de um Kanban. Além disso, pelo projeto estar ligado à disciplina de Requisitos da UNB - FGA, será necessário gerar certos produtos de acordo com a necessidade da disciplina. Esses produtos e datas são:
 
-* Documento de visão - 18/02
-* Backlog do produto - 11/03
-* Primeira release - 01/04
-* Escopo do Produto - 22/04
-* Segunda release - 13/05
+Documento de visão - 18/02
+Backlog do produto - 11/03
+Primeira release - 01/04
+Escopo do Produto - 22/04
+Segunda release - 13/05
 
 As datas das sprints são:
 
-* Sprint 0  →  14/02 - 21/02
-* Sprint 1  →  22/02 - 28/02
-* Sprint 2  →  01/03 - 07/03
-* Sprint 3  →  08/03 - 14/03
-* Sprint 4  →  15/03 - 21/03
-* Sprint 5  →  22/03 - 28/03
-* Sprint 6  →  29/03 - 04/04
-* Sprint 7  →  05/04 - 11/04
-* Sprint 8  →  12/04 - 18/04
-* Sprint 9  →  19/04 - 25/04
-* Sprint 10  →  26/04 - 02/05
-* Sprint 11  →  03/05 - 09/05
-* Sprint 12  →  10/05 - 15/05
+Sprint 0  →  14/02 - 21/02
+Documento de visão
+Criação do git → RNF01
+Documento de comunicação
+Sprint 1  →  22/02 - 28/02
+Backlog do produto
+Roadmap
+Protótipo de baixa fidelidade
+Configurar a wiki(github pages)
+Quadro Lean Inception
+Sprint 2  →  01/03 - 07/03
+Criação do quadro Kanban no ZenHub
+Definição da logo
+Políticas de commit, criação de branch e pull request
+Quadro Lean Inception
+Estudo das tecnologias
+Sprint 3  →  08/03 - 14/03
+Revisão de documentação da Unidade 2
+Ambiente de desenvolvimento backend → RNF02
+Ambiente de desenvolvimento frontend → RNF03
+Atualização do Roadmap
+Documento de Arquitetura
+Sprint 4  →  15/03 - 21/03
+Protótipo de alta fidelidade
+Criação do banco de dados → RNF04
+Criação de template para formulários no front → RNF05
+Estudo sobre o deploy
+Sprint 5  →  22/03 - 28/03
+Hospedagem do site → RNF06
+Cadastro do usuário → US01
+Login Usuário → US03
+Sprint 6  →  29/03 - 04/04
+CRUD notícia → US05, US06, US07 e US09
+CRUD eventos → US11, US12, US13 e US14
+Revisão da documentação
+Sprint 7  →  05/04 - 11/04
+CRUD EJ/EC/Lab → US17, US18 e US19
+Filtrar publicações → US08
+Sprint 8  →  12/04 - 18/04
+CRUD tópicos de discussão no fórum → US20, US21 e US23
+Enviar denúncia de notícias → US10
+Sprint 9  →  19/04 - 25/04
+Manutenção e correção de bugs 
+Sprint 10  →  26/04 - 02/05
+Solicitar de permissão como gestor → US02
+Enviar denúncia de fórum → US22
+Sprint 11  →  03/05 - 09/05
+ Visualizar mapa com fotos → US15 e US16
+Resgatar senha → US04
+Sprint 12  →  10/05 - 15/05
+Revisar documentação
+Revisar código
+
+As US's (Histórias de usuários) e os RNF’s (Requisitos não funcionais) estão definidos no Backlog do Produto.
+
 
 ### Processo de desenvolvimento e mensuração
 
