@@ -26,14 +26,14 @@ Este documento é uma ata da reunião de retrospectiva da sprint 5, e de início
 * Product Owner: Sara 
 
 
-## 2ª Pauta: Retrospectiva da sprint 4 (de 22/03 à 28/03)
+## 2ª Pauta: Retrospectiva da sprint 5 (de 22/03 à 28/03)
 
 ### Tópico: Fechamento de sprint
 
 | História | Status |
 |--|--|
-| Hospedagem do site | Débito (deploy do front) |
-| Cadastro do usuário | Débito (testes do front) |
+| Hospedagem do site | Concluído |
+| Cadastro do usuário | Concluído |
 | Login do usuário | Concluído |
 
 ### Tópico: Pontos positivos
@@ -54,21 +54,15 @@ Este documento é uma ata da reunião de retrospectiva da sprint 5, e de início
 * Definir a pontuação de história adequadamente 
 
 
-## 3ª Pauta: Backlog da sprint 5 (de 29/0 à 04/04)
+## 3ª Pauta: Backlog da sprint 5 (de 29/03 à 04/04)
 
 ### Tópico: Planning Poker
 
-| História | Pontos de história |
-|--|--|
-| CRUD notícias | 5 |
-| CRUD eventos | 5 |
-| Revisão da documentação | 2 |
+* Refatoração da documentação 
+* Entregável da unidade 3 da matéria
+
 
 
 ### Tópico: Pareamento
 
-| Pareamento | Histórias |
-|--|--|
-| Rhuan, Sara e Edvan | CRUD eventos |
-| Júlio e João | CRUD notícias |
-| Sara, Júlio, João, Edvan e Rhuan | Revisão da documentação |
+* Todos participam 

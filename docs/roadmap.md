@@ -47,20 +47,23 @@
 
 ### Sprint 6 (29/03 - 04/04)
 
+* Refatoração da documentação 
+* Entregável da unidade 3 da matéria
+
+
+### Sprint 7 (05/04 - 11/04)
+
 * CRUD notícia → **US05, US06, US07 e US09**
 * CRUD eventos → **US11, US12, US13 e US14**
 * Revisão da documentação 
 
-### Sprint 7 (05/04 - 11/04)
+### Sprint 8 (12/04 - 18/04)
 * CRUD EJ/EC/Lab → **US17, US18 e US19**
 * Filtrar publicações → **US08**
 
-### Sprint 8 (12/04 - 18/04)
+### Sprint 9 (19/04 - 25/04)
 * CRUD tópicos de discussão no fórum → **US20, US21 e US23**
 * Enviar denúncia de notícias → **US10**
-
-### Sprint 9 (19/04 - 25/04)
-* Manutenção e correção de bugs
 
 ### Sprint 10 (26/04 - 02/05)
 * Documento de caso de uso
@@ -74,3 +77,4 @@
 ### Sprint 12 (10/05 - 15/05)
 * Revisar documentação 
 * Revisar código 
+* Manutenção e correção de bugs
