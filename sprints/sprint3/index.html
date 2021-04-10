@@ -1,0 +1,902 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      <link rel="icon" href="../../logo.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.1.1">
+    
+    
+      
+        <title>Sprint 3 -  </title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.9299cb39.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ef6f36e2.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#4cae4f">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
+      
+    
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="green" data-md-color-accent="green">
+  
+    
+    <script>function __prefix(e){return new URL("../..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#historico-de-versao" class="md-skip">
+          Ir para o conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title=" " class="md-header__button md-logo" aria-label=" " data-md-component="logo">
+      
+  <img src="../../logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+             
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Sprint 3
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title=" " class="md-nav__button md-logo" aria-label=" " data-md-component="logo">
+      
+  <img src="../../logo.png" alt="logo">
+
+    </a>
+     
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Início
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../documento-de-visao/" class="md-nav__link">
+        Documento de Visão
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../documento-de-arquitetura/" class="md-nav__link">
+        Documento de Arquitetura
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../documento-de-comunicacao/" class="md-nav__link">
+        Documento de Comunição
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" checked>
+      
+      <label class="md-nav__link" for="__nav_5">
+        Documentos de Sprints
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Documentos de Sprints" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Documentos de Sprints
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprint0/" class="md-nav__link">
+        Sprint 0
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprint1/" class="md-nav__link">
+        Sprint 1
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprint2/" class="md-nav__link">
+        Sprint 2
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Sprint 3
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Sprint 3
+      </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-versao" class="md-nav__link">
+    Histórico de Versão
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#objetivo" class="md-nav__link">
+    Objetivo
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#partipantes" class="md-nav__link">
+    Partipantes
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1a-pauta-decisao-organizacional" class="md-nav__link">
+    1ª Pauta: Decisão organizacional
+  </a>
+  
+    <nav class="md-nav" aria-label="1ª Pauta: Decisão organizacional">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#topico-cargos-rotacionais" class="md-nav__link">
+    Tópico: Cargos rotacionais
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2a-pauta-retrospectiva-da-sprint-2-de-0103-a-0703" class="md-nav__link">
+    2ª Pauta: Retrospectiva da sprint 2 (de 01/03 à 07/03)
+  </a>
+  
+    <nav class="md-nav" aria-label="2ª Pauta: Retrospectiva da sprint 2 (de 01/03 à 07/03)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#topico-fechamento-de-sprint" class="md-nav__link">
+    Tópico: Fechamento de sprint
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#topico-pontos-positivos" class="md-nav__link">
+    Tópico: Pontos positivos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#topico-pontos-negativos" class="md-nav__link">
+    Tópico: Pontos negativos
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#topico-a-melhorar" class="md-nav__link">
+    Tópico: A melhorar
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3a-pauta-backlog-da-sprint-3-de-0803-a-1403" class="md-nav__link">
+    3ª Pauta: Backlog da sprint 3 (de 08/03 à 14/03)
+  </a>
+  
+    <nav class="md-nav" aria-label="3ª Pauta: Backlog da sprint 3 (de 08/03 à 14/03)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#topico-planning-poker" class="md-nav__link">
+    Tópico: Planning Poker
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#topico-pareamento" class="md-nav__link">
+    Tópico: Pareamento
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprint4/" class="md-nav__link">
+        Sprint 4
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprint5/" class="md-nav__link">
+        Sprint 5
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprint6/" class="md-nav__link">
+        Sprint 6
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprint7/" class="md-nav__link">
+        Sprint 7
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprint8/" class="md-nav__link">
+        Sprint 8
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../product_backlog/" class="md-nav__link">
+        Backlog do produto
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../roadmap/" class="md-nav__link">
+        Roadmap
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../documento_modelagem/" class="md-nav__link">
+        Modelagem do banco de dados
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-versao" class="md-nav__link">
+    Histórico de Versão
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#objetivo" class="md-nav__link">
+    Objetivo
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#partipantes" class="md-nav__link">
+    Partipantes
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1a-pauta-decisao-organizacional" class="md-nav__link">
+    1ª Pauta: Decisão organizacional
+  </a>
+  
+    <nav class="md-nav" aria-label="1ª Pauta: Decisão organizacional">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#topico-cargos-rotacionais" class="md-nav__link">
+    Tópico: Cargos rotacionais
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2a-pauta-retrospectiva-da-sprint-2-de-0103-a-0703" class="md-nav__link">
+    2ª Pauta: Retrospectiva da sprint 2 (de 01/03 à 07/03)
+  </a>
+  
+    <nav class="md-nav" aria-label="2ª Pauta: Retrospectiva da sprint 2 (de 01/03 à 07/03)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#topico-fechamento-de-sprint" class="md-nav__link">
+    Tópico: Fechamento de sprint
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#topico-pontos-positivos" class="md-nav__link">
+    Tópico: Pontos positivos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#topico-pontos-negativos" class="md-nav__link">
+    Tópico: Pontos negativos
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#topico-a-melhorar" class="md-nav__link">
+    Tópico: A melhorar
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3a-pauta-backlog-da-sprint-3-de-0803-a-1403" class="md-nav__link">
+    3ª Pauta: Backlog da sprint 3 (de 08/03 à 14/03)
+  </a>
+  
+    <nav class="md-nav" aria-label="3ª Pauta: Backlog da sprint 3 (de 08/03 à 14/03)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#topico-planning-poker" class="md-nav__link">
+    Tópico: Planning Poker
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#topico-pareamento" class="md-nav__link">
+    Tópico: Pareamento
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                  <h1>Sprint 3</h1>
+                
+                <h2 id="historico-de-versao">Histórico de Versão</h2>
+<table>
+<thead>
+<tr>
+<th>Data</th>
+<th>Versão</th>
+<th>Descrição</th>
+<th>Autor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>06/03/2021</td>
+<td>1.0</td>
+<td>Criação do documento</td>
+<td>João Lopes</td>
+</tr>
+</tbody>
+</table>
+<h2 id="objetivo">Objetivo</h2>
+<p>Este documento é uma ata da reunião de retrospectiva da sprint 2, e de início da sprint 3</p>
+<h2 id="partipantes">Partipantes</h2>
+<ul>
+<li>Sara Campos</li>
+<li>Edvan Barreira</li>
+<li>Júlio Schneider</li>
+<li>Rhuan Marques</li>
+<li>João Lopes</li>
+</ul>
+<h2 id="1a-pauta-decisao-organizacional">1ª Pauta: Decisão organizacional</h2>
+<h3 id="topico-cargos-rotacionais">Tópico: Cargos rotacionais</h3>
+<ul>
+<li>Scrum Master: Rhuan Marques</li>
+<li>Product Owner: Edvan Barreira</li>
+</ul>
+<h2 id="2a-pauta-retrospectiva-da-sprint-2-de-0103-a-0703">2ª Pauta: Retrospectiva da sprint 2 (de 01/03 à 07/03)</h2>
+<h3 id="topico-fechamento-de-sprint">Tópico: Fechamento de sprint</h3>
+<table>
+<thead>
+<tr>
+<th>História</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Definição da logo</td>
+<td>Concluído</td>
+</tr>
+<tr>
+<td>Políticas de commit, criação de branch e pull request</td>
+<td>Concluído</td>
+</tr>
+<tr>
+<td>Quadro Kanban do Projeto</td>
+<td>Concluído</td>
+</tr>
+<tr>
+<td>Quadro Lean Inception</td>
+<td>Concluído</td>
+</tr>
+<tr>
+<td>Estudo das tecnologias</td>
+<td>Concluído</td>
+</tr>
+</tbody>
+</table>
+<h3 id="topico-pontos-positivos">Tópico: Pontos positivos</h3>
+<ul>
+<li>Alta produtividade</li>
+</ul>
+<h3 id="topico-pontos-negativos">Tópico: Pontos negativos</h3>
+<ul>
+<li>Sprint muito extensa</li>
+<li>Dificuldade com o modelo de documentação adotado pela matéria</li>
+</ul>
+<h2 id="topico-a-melhorar">Tópico: A melhorar</h2>
+<ul>
+<li>Divisão de tarefas</li>
+<li>Estudo sobre documentação</li>
+</ul>
+<h2 id="3a-pauta-backlog-da-sprint-3-de-0803-a-1403">3ª Pauta: Backlog da sprint 3 (de 08/03 à 14/03)</h2>
+<h3 id="topico-planning-poker">Tópico: Planning Poker</h3>
+<table>
+<thead>
+<tr>
+<th>História</th>
+<th>Pontos de história</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Revisão de documentação da Unidade 2</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Ambiente de desenvolvimento backend</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Ambiente de desenvolvimento frontend</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Atualização do Roadmap</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Documento de Arquitetura</td>
+<td>2</td>
+</tr>
+</tbody>
+</table>
+<h3 id="topico-pareamento">Tópico: Pareamento</h3>
+<table>
+<thead>
+<tr>
+<th>Pareamento</th>
+<th>Histórias</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Edvan, Júlio e Sara</td>
+<td>Ambiente de desenvolvimento backend e frontend</td>
+</tr>
+<tr>
+<td>João e Rhuan</td>
+<td>Revisão de documentação da Unidade 2, atualização do roadmap e documento de arquitetura</td>
+</tr>
+</tbody>
+</table>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+        
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        <a href="../sprint2/" class="md-footer__link md-footer__link--prev" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Anterior
+              </span>
+              Sprint 2
+            </div>
+          </div>
+        </a>
+      
+      
+        <a href="../sprint4/" class="md-footer__link md-footer__link--next" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Próximo
+              </span>
+              Sprint 4
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+        
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant"], "translations": {"clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "search.config.lang": "pt", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Buscar", "search.result.placeholder": "Digite para iniciar a busca", "search.result.none": "Nenhum resultado encontrado", "search.result.one": "1 resultado encontrado", "search.result.other": "# resultados encontrados", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}, "search": "../../assets/javascripts/workers/search.fe42c31b.min.js", "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.7353b375.min.js"></script>
+      
+    
+  </body>
+</html>

@@ -1,0 +1,1433 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      <link rel="icon" href="../logo.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.1.1">
+    
+    
+      
+        <title>Documento de Visão -  </title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.9299cb39.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ef6f36e2.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#4cae4f">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
+      
+    
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="green" data-md-color-accent="green">
+  
+    
+    <script>function __prefix(e){return new URL("..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#visao-do-projeto" class="md-skip">
+          Ir para o conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title=" " class="md-header__button md-logo" aria-label=" " data-md-component="logo">
+      
+  <img src="../logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+             
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Documento de Visão
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title=" " class="md-nav__button md-logo" aria-label=" " data-md-component="logo">
+      
+  <img src="../logo.png" alt="logo">
+
+    </a>
+     
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        Início
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Documento de Visão
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Documento de Visão
+      </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-versao" class="md-nav__link">
+    Histórico de versão
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    Introdução
+  </a>
+  
+    <nav class="md-nav" aria-label="Introdução">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#declaracao-do-problema" class="md-nav__link">
+    Declaração do problema
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#objetivos-do-projeto" class="md-nav__link">
+    Objetivos do projeto
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stakeholders" class="md-nav__link">
+    Stakeholders
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#visao-geral-do-produto" class="md-nav__link">
+    Visão geral do produto
+  </a>
+  
+    <nav class="md-nav" aria-label="Visão geral do produto">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#declaracao-da-posicao-do-produto" class="md-nav__link">
+    Declaração da posição do produto
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#minimo-produto-viavel" class="md-nav__link">
+    Mínimo produto viável
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#visao-geral-do-produto_1" class="md-nav__link">
+    Visão geral do produto
+  </a>
+  
+    <nav class="md-nav" aria-label="Visão geral do produto">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#organizacao-do-projeto" class="md-nav__link">
+    Organização do Projeto
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ferramenta-ambiente-e-infraestrutura" class="md-nav__link">
+    Ferramenta, ambiente e infraestrutura
+  </a>
+  
+    <nav class="md-nav" aria-label="Ferramenta, ambiente e infraestrutura">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hardware" class="md-nav__link">
+    Hardware
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#software" class="md-nav__link">
+    Software
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#processo-de-gerencia-do-projeto" class="md-nav__link">
+    Processo de gerência do projeto
+  </a>
+  
+    <nav class="md-nav" aria-label="Processo de gerência do projeto">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#planejamento-das-fases-e-iteracoes-do-projeto" class="md-nav__link">
+    Planejamento das fases e iterações do projeto
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#processo-de-desenvolvimento-e-mensuracao" class="md-nav__link">
+    Processo de desenvolvimento e mensuração
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#matriz-de-comunicacao" class="md-nav__link">
+    Matriz de comunicação
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#escalabilidade-do-projeto" class="md-nav__link">
+    Escalabilidade do projeto
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gerenciamento-de-riscos" class="md-nav__link">
+    Gerenciamento de riscos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#criterios-de-replanejamento" class="md-nav__link">
+    Critérios de replanejamento
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#precedencia-e-prioridade" class="md-nav__link">
+    Precedência e prioridade
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referencias" class="md-nav__link">
+    Referências
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../documento-de-arquitetura/" class="md-nav__link">
+        Documento de Arquitetura
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../documento-de-comunicacao/" class="md-nav__link">
+        Documento de Comunição
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+      
+      <label class="md-nav__link" for="__nav_5">
+        Documentos de Sprints
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Documentos de Sprints" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Documentos de Sprints
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprints/sprint0/" class="md-nav__link">
+        Sprint 0
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprints/sprint1/" class="md-nav__link">
+        Sprint 1
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprints/sprint2/" class="md-nav__link">
+        Sprint 2
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprints/sprint3/" class="md-nav__link">
+        Sprint 3
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprints/sprint4/" class="md-nav__link">
+        Sprint 4
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprints/sprint5/" class="md-nav__link">
+        Sprint 5
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprints/sprint6/" class="md-nav__link">
+        Sprint 6
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprints/sprint7/" class="md-nav__link">
+        Sprint 7
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sprints/sprint8/" class="md-nav__link">
+        Sprint 8
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../product_backlog/" class="md-nav__link">
+        Backlog do produto
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../roadmap/" class="md-nav__link">
+        Roadmap
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../documento_modelagem/" class="md-nav__link">
+        Modelagem do banco de dados
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-versao" class="md-nav__link">
+    Histórico de versão
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    Introdução
+  </a>
+  
+    <nav class="md-nav" aria-label="Introdução">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#declaracao-do-problema" class="md-nav__link">
+    Declaração do problema
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#objetivos-do-projeto" class="md-nav__link">
+    Objetivos do projeto
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stakeholders" class="md-nav__link">
+    Stakeholders
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#visao-geral-do-produto" class="md-nav__link">
+    Visão geral do produto
+  </a>
+  
+    <nav class="md-nav" aria-label="Visão geral do produto">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#declaracao-da-posicao-do-produto" class="md-nav__link">
+    Declaração da posição do produto
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#minimo-produto-viavel" class="md-nav__link">
+    Mínimo produto viável
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#visao-geral-do-produto_1" class="md-nav__link">
+    Visão geral do produto
+  </a>
+  
+    <nav class="md-nav" aria-label="Visão geral do produto">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#organizacao-do-projeto" class="md-nav__link">
+    Organização do Projeto
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ferramenta-ambiente-e-infraestrutura" class="md-nav__link">
+    Ferramenta, ambiente e infraestrutura
+  </a>
+  
+    <nav class="md-nav" aria-label="Ferramenta, ambiente e infraestrutura">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hardware" class="md-nav__link">
+    Hardware
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#software" class="md-nav__link">
+    Software
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#processo-de-gerencia-do-projeto" class="md-nav__link">
+    Processo de gerência do projeto
+  </a>
+  
+    <nav class="md-nav" aria-label="Processo de gerência do projeto">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#planejamento-das-fases-e-iteracoes-do-projeto" class="md-nav__link">
+    Planejamento das fases e iterações do projeto
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#processo-de-desenvolvimento-e-mensuracao" class="md-nav__link">
+    Processo de desenvolvimento e mensuração
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#matriz-de-comunicacao" class="md-nav__link">
+    Matriz de comunicação
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#escalabilidade-do-projeto" class="md-nav__link">
+    Escalabilidade do projeto
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gerenciamento-de-riscos" class="md-nav__link">
+    Gerenciamento de riscos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#criterios-de-replanejamento" class="md-nav__link">
+    Critérios de replanejamento
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#precedencia-e-prioridade" class="md-nav__link">
+    Precedência e prioridade
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referencias" class="md-nav__link">
+    Referências
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="visao-do-projeto">Visão do projeto</h1>
+<h2 id="historico-de-versao">Histórico de versão</h2>
+<table>
+<thead>
+<tr>
+<th>Data</th>
+<th>Versão</th>
+<th>Descrição</th>
+<th>Autor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>11/02/2021</td>
+<td>0.1</td>
+<td>Proposta de projeto e criação do documento</td>
+<td>Edvan Gomes<br> Rhuam Marques<br> João Lopes<br> Júlio Schneider<br> Sara Campos</td>
+</tr>
+<tr>
+<td>17/02/2021</td>
+<td>1.0</td>
+<td>Finalização do documento</td>
+<td>Júlio Schneider<br> Sara Campo<br> João Lopes</td>
+</tr>
+<tr>
+<td>10/03/2021</td>
+<td>1.2</td>
+<td>Atualização do documento</td>
+<td>João Lopes e Rhuan Marques</td>
+</tr>
+<tr>
+<td>31/03/2021</td>
+<td>1.3</td>
+<td>Atualização do documento</td>
+<td>João Lopes</td>
+</tr>
+</tbody>
+</table>
+<h2 id="introducao">Introdução</h2>
+<h3 id="declaracao-do-problema">Declaração do problema</h3>
+<table>
+<thead>
+<tr>
+<th>Declaração</th>
+<th>Especificação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>O problema</td>
+<td>A falta de uma plataforma que promova a centralização de comunicados sobre notícias e eventos e a interação gerada por esses comunicados entre os discentes, docentes e a comunidade da FGA.</td>
+</tr>
+<tr>
+<td>Afeta</td>
+<td>Os estudantes, organizações institucionais, como EJ's, EC's e  da universidade e a comunidade.</td>
+</tr>
+<tr>
+<td>Cujo impacto é</td>
+<td>O problema muitas vezes faz com que informações relevantes, como processos seletivos e comunicados para calouros, sejam dispersas por diversos meios de comunicação internos à FGA, como o grupo do facebook, grupos específicos de cada engenharia em aplicativos de mensagem e etc., não atingindo boa parte da comunidade da FGA.</td>
+</tr>
+<tr>
+<td>Uma solução de sucesso seria</td>
+<td>Uma aplicação que consiga gerar interação em torno de notícias, eventos e fóruns entre a comunidade da FGA, através da disponibilização de informações de maneira funcional e organizada.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="objetivos-do-projeto">Objetivos do projeto</h3>
+<p>Tendo em vista a carência de um meio de fácil acesso à informação que permita uma comunicação eficiente entre a comunidade do campus FGA, o objetivo do projeto é fornecer uma plataforma na qual os usuários, possam interagir e divulgar informações de relevância à comunidade da FGA. Dessa forma, busca-se um meio de concentrar e organizar a divulgação de comunicados, facilitando a correspondência entre as partes.</p>
+<h2 id="stakeholders">Stakeholders</h2>
+<table>
+<thead>
+<tr>
+<th>Nome</th>
+<th>Descrição</th>
+<th>Responsabilidades</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Discentes</td>
+<td>Estudantes matriculados na FGA.</td>
+<td>Promover a interação entre os demais usuários.<br> São os principais divulgadores e alvos das notícias.</td>
+</tr>
+<tr>
+<td>Docentes</td>
+<td>Professores que trabalham na FGA.</td>
+<td>Disponibilizar informações importantes, como disponibilidade de TCC e vagas de projeto, para os demais usuários.</td>
+</tr>
+<tr>
+<td>Empresas Juniores, Equipes de Competição e Laboratórios</td>
+<td>Grupos associados à faculdade.</td>
+<td>Promover eventos.<br> Disponibilizar informações e notícias sobre os serviços e produtos fornecidos.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="visao-geral-do-produto">Visão geral do produto</h2>
+<h3 id="declaracao-da-posicao-do-produto">Declaração da posição do produto</h3>
+<table>
+<thead>
+<tr>
+<th>Declaração</th>
+<th>Especificação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Para</td>
+<td>a comunidade da FGA</td>
+</tr>
+<tr>
+<td>Quem</td>
+<td>deseja ter acesso a informações relevantes à comunidade da FGA</td>
+</tr>
+<tr>
+<td>O ConectaUnb</td>
+<td>é uma aplicação web</td>
+</tr>
+<tr>
+<td>Que</td>
+<td>centraliza e organiza eventos, notícias e debates referentes a comunidade da FGA</td>
+</tr>
+<tr>
+<td>Ao contrário</td>
+<td>do grupo da FGA no Facebook</td>
+</tr>
+<tr>
+<td>Nosso produto</td>
+<td>torna prático o acesso às informações como eventos, notícias e debates referentes a comunidade da FGA</td>
+</tr>
+</tbody>
+</table>
+<h3 id="minimo-produto-viavel">Mínimo produto viável</h3>
+<p>O MVP do projeto, consiste em possibilitar que os usuários (membros da comunidade da FGA) possam criar e visualizar as notícias, eventos,e informações sobre as EJ's, EC's e laboratórios. Além de criar tópicos de discussão no fórum e poder comentar neles. Esse MVP deverá ser disponibilizado para alguns alunos da FGA, o qual será entregue um feedback sobre as funcionalidades. </p>
+<h2 id="visao-geral-do-produto_1">Visão geral do produto</h2>
+<h3 id="organizacao-do-projeto">Organização do Projeto</h3>
+<table>
+<thead>
+<tr>
+<th>Papel</th>
+<th>Atribuições</th>
+<th>Participantes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scrum Master</td>
+<td>O Scrum Master é responsável por garantir que a equipe siga os valores do SCRUM, atua também para remover obstáculos à equipe de desenvolvimento. Ainda é um facilitador das dailies e reuniões de sprint. O cargo será rotacionado entre a equipe</td>
+<td>Toda a equipe</td>
+</tr>
+<tr>
+<td>Product Owner</td>
+<td>É o responsável pelo gerenciamento do backlog do produto. Além disso, deve garantir que as funcionalidades adicionadas estejam conceitualmente de acordo com o backlog do produto. O cargo será rotacionado entre a equipe</td>
+<td>Toda a equipe</td>
+</tr>
+<tr>
+<td>Desenvolvedor</td>
+<td>Responsáveis pelo desenvolvimento do software, e como não há designers no time, também é papel do desenvolvedor, estruturar o design do projeto.</td>
+<td>Toda a equipe</td>
+</tr>
+</tbody>
+</table>
+<h2 id="ferramenta-ambiente-e-infraestrutura">Ferramenta, ambiente e infraestrutura</h2>
+<h3 id="hardware">Hardware</h3>
+<table>
+<thead>
+<tr>
+<th>Perfil</th>
+<th>Tipo de Hardware</th>
+<th>Configurações</th>
+<th>Qtd. Planejada</th>
+<th>Prazo Estimado</th>
+<th>Observação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Desenvolvedor</td>
+<td>Computador</td>
+<td>- i5 5ª geração<br>- 4GB de Ram</td>
+<td>05</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="software">Software</h3>
+<table>
+<thead>
+<tr>
+<th>Perfil</th>
+<th>Tipo de software</th>
+<th>Nome da ferramente</th>
+<th>Versão</th>
+<th>Qtd. licenças planejas</th>
+<th>Prazo Estimado</th>
+<th>Observação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Todos os perfis planejados</td>
+<td>Repositório para código e documentação</td>
+<td>Github</td>
+<td>-</td>
+<td>N/A</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Todos os perfis planejados</td>
+<td>Serviço de armazenamento e compartilhamento de arquivos</td>
+<td>Google Drive</td>
+<td>-</td>
+<td>N/A</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Todos os perfis planejados</td>
+<td>Editor de código-fonte</td>
+<td>VS Code</td>
+<td>1.53.0</td>
+<td>N/A</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Todos os perfis planejados</td>
+<td>Linguagem de programação</td>
+<td>JavaScript</td>
+<td>ECMAScript  6</td>
+<td>N/A</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Todos os perfis planejados</td>
+<td>Biblioteca JavaScript para criar interfaces</td>
+<td>React</td>
+<td>17.0.0</td>
+<td>N/A</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Todos os perfis planejados</td>
+<td>Framework JavaScript para backend</td>
+<td>Node.js</td>
+<td>14.15.5</td>
+<td>N/A</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Todos os perfis planejados</td>
+<td>Sistema gerenciador de banco de dados</td>
+<td>PostgreSQL</td>
+<td>13.2</td>
+<td>N/A</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Todos os perfis planejados</td>
+<td>ORM para Node.js</td>
+<td>Sequelize</td>
+<td>v6</td>
+<td>N/A</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Todos os perfis planejados</td>
+<td>Gerenciador de banco de dados PostgreSQL</td>
+<td>PostBird</td>
+<td>v11</td>
+<td>N/A</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Todos os perfis planejados</td>
+<td>Cliente desktop API para Rest e GraphQL</td>
+<td>Insomnia</td>
+<td>2020.5</td>
+<td>N/A</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="processo-de-gerencia-do-projeto">Processo de gerência do projeto</h2>
+<h3 id="planejamento-das-fases-e-iteracoes-do-projeto">Planejamento das fases e iterações do projeto</h3>
+<p>O projeto será feito de acordo com o metodologia SCRUM, tendo período de Sprint de uma semana, onde ao final da sprint deve-se gerar um artefato que agrega ao produto, logo um modelo incremental, a Sprint 0 do projeto teve início no dia 14 de fevereiro, histórias que serão realizadas nas sprint estão presentes no backlog de equipe, a organização das atividades dos backlogs serão realizadas por meio de um Kanban. Além disso, pelo projeto estar ligado à disciplina de Requisitos da UNB - FGA, será necessário gerar certos produtos de acordo com a necessidade da disciplina. Esses produtos e datas são:</p>
+<p>Documento de visão - 18/02</p>
+<p>Backlog do produto - 11/03</p>
+<p>Primeira release - 01/04</p>
+<p>Escopo do Produto - 22/04</p>
+<p>Segunda release - 13/05</p>
+<p>As datas das sprints são:</p>
+<p><strong>Sprint 0</strong>  →  14/02 - 21/02
+- Documento de visão
+- Criação do git → RNF01
+- Documento de comunicação</p>
+<p><strong>Sprint 1</strong> →  22/02 - 28/02
+- Backlog do produto
+- Roadmap
+- Protótipo de baixa fidelidade
+- Configurar a wiki(github pages)
+- Quadro Lean Inception</p>
+<p><strong>Sprint 2</strong>  →  01/03 - 07/03
+- Criação do quadro Kanban no ZenHub
+- Definição da logo
+- Políticas de commit, criação de branch e pull request
+- Quadro Lean Inception
+- Estudo das tecnologias</p>
+<p><strong>Sprint 3</strong>  →  08/03 - 14/03
+- Revisão de documentação da Unidade 2
+- Ambiente de desenvolvimento backend → RNF02
+- Ambiente de desenvolvimento frontend → RNF03
+- Atualização do Roadmap
+- Documento de Arquitetura</p>
+<p><strong>Sprint 4</strong>  →  15/03 - 21/03
+- Protótipo de alta fidelidade
+- Criação do banco de dados → RNF04
+- Criação de template para formulários no front → - RNF05
+- Estudo sobre o deploy</p>
+<p><strong>Sprint 5</strong>  →  22/03 - 28/03
+- Hospedagem do site → RNF06
+- Cadastro do usuário → US01
+- Login Usuário → US03</p>
+<p><strong>Sprint 6</strong>  →  29/03 - 04/04
+- CRUD notícia → US05, US06, US07 e US09
+- CRUD eventos → US11, US12, US13 e US14
+- Revisão da documentação</p>
+<p><strong>Sprint 7</strong>  →  05/04 - 11/04
+- CRUD EJ/EC/Lab → US17, US18 e US19
+- Filtrar publicações → US08</p>
+<p><strong>Sprint 8</strong>  →  12/04 - 18/04
+- CRUD tópicos de discussão no fórum → US20, US21 e US23
+- Enviar denúncia de notícias → US10</p>
+<p><strong>Sprint 9</strong>  →  19/04 - 25/04
+- Manutenção e correção de bugs </p>
+<p><strong>Sprint 10</strong>  →  26/04 - 02/05
+- Solicitar de permissão como gestor → US02
+- Enviar denúncia de fórum → US22</p>
+<p><strong>Sprint 11</strong>  →  03/05 - 09/05
+- Visualizar mapa com fotos → US15 e US16
+- Resgatar senha → US04</p>
+<p><strong>Sprint 12</strong>  →  10/05 - 15/05
+- Revisar documentação
+- Revisar código</p>
+<p>As US's (Histórias de usuários) e os RNF’s (Requisitos não funcionais) estão definidos no Backlog do Produto.</p>
+<h3 id="processo-de-desenvolvimento-e-mensuracao">Processo de desenvolvimento e mensuração</h3>
+<p>Durante o desenvolvimento do projeto serão realizadas reuniões às terças, quintas, para todos os membros da equipe estarem a par do andamento do projeto, além de ser um momento para esclarecer dúvidas e sugerir alterações. Como o tempo de cada Sprint é de uma semana, ao final de cada ciclo, no sábado, será realizada uma reunião de retrospectiva da Sprint finalizada, além de realizar o planejamento da próxima. Nessas reuniões é realizado um planning poker, que estima o valor da história de usuário com pontos de história, os pontos de história são distribuídos de acordo com a tabela abaixo, que segue a sequência de Fibonacci. Na discussão da Sprint anterior é gerado um relatório de velocity, que é a quantidade de pontos de histórias cumpridos por Sprint.</p>
+<table>
+<thead>
+<tr>
+<th>Pontuação</th>
+<th>Significado</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Tarefa muito fácil</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Tarefa fácil</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Tarefa média</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Tarefa difícil</td>
+</tr>
+</tbody>
+</table>
+<h3 id="matriz-de-comunicacao">Matriz de comunicação</h3>
+<table>
+<thead>
+<tr>
+<th>Descrição</th>
+<th>Área/Envolvidos</th>
+<th>Periodicidade</th>
+<th>Produtos Gerados</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>- Acompanhamento das atividades</td>
+<td>Equipe do Projeto</td>
+<td>Terças e quintas</td>
+<td>-</td>
+</tr>
+<tr>
+<td>- Fechamento de Sprint<br> -  Definição do pareamento<br> - Planejamento da Sprint seguinte</td>
+<td>Equipe do Projeto</td>
+<td>Sábado</td>
+<td>Ata de reunião</td>
+</tr>
+<tr>
+<td>- Comunicação geral do grupo, geralmente por aplicativo de mensagens</td>
+<td>Equipe do Projeto</td>
+<td>Sempre que necessário</td>
+<td>-</td>
+</tr>
+<tr>
+<td>- Registro de questões referentes ao projeto, presente nas issues do repositório da equipe</td>
+<td>Equipe do projeto</td>
+<td>Sempre que necessário</td>
+<td>Registro dessas discussões na própria issue</td>
+</tr>
+</tbody>
+</table>
+<h3 id="escalabilidade-do-projeto">Escalabilidade do projeto</h3>
+<p>Em caso de problemas no qual a equipe não consiga consertar, o problema deve ser escalado para instâncias maiores. No caso do projeto, inicialmente deve ser escalado para monitores, e posteriormente, caso necessário, para o professor do projeto.</p>
+<h3 id="gerenciamento-de-riscos">Gerenciamento de riscos</h3>
+<table>
+<thead>
+<tr>
+<th>Risco</th>
+<th>Descrição</th>
+<th>Probabilidade</th>
+<th>Impacto</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Dificuldade de desenvolvimento do software</td>
+<td>Caso o tema escolhido tenha uma alta complexidade ou os membros da equipe não tenham experiência com as tecnologias utilizadas</td>
+<td>Alta</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Mudança do escopo</td>
+<td>Se porventura a escolha do tema não agrade os membros da equipe ou a proposta seja rejeitada pelo professor</td>
+<td>Baixa</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Baixa produtividade da equipe</td>
+<td>Questões como disponibilidade de tempo e/ou falta de motivação dos integrantes</td>
+<td>Moderada</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Ambiente e recursos de trabalho inadequado</td>
+<td>Na hipótese de que ocorra problemas com acesso a internet, eficiência dos computadores utilizados pela equipe, espaço de trabalho dos integrantes, e afins</td>
+<td>Moderada</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Membro ocioso</td>
+<td>Se por acaso alguém da equipe está incapaz de realizar as tarefas ou reuniões, seja por desmotivação, falta de conhecimento, falta de recursos ou até mesmo questões pessoais</td>
+<td>Moderada</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Um o mais integrantes sairem ou ficarem ausentes</td>
+<td>Caso algum membro da equipe deixe o projeto por um tempo, determinado ou não</td>
+<td>Muito baixa</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Problema de comunicação na equipe</td>
+<td>No caso de haver algum sentimento de não pertencimento ou um conflito de interesses</td>
+<td>Moderada</td>
+<td>2</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Escala</th>
+<th>Impacto</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>1 a 2 dias</td>
+</tr>
+<tr>
+<td>2</td>
+<td>3 a 7 dias</td>
+</tr>
+<tr>
+<td>3</td>
+<td>8 dias ou mais</td>
+</tr>
+</tbody>
+</table>
+<h3 id="criterios-de-replanejamento">Critérios de replanejamento</h3>
+<p>Durante o desenvolvimento, pode ser necessário que uma ou várias histórias, ou features, sejam re-planejadas devido a mudanças nos requisitos. Para isso, essas alterações devem ser analisadas pelo Product Owner, para garantir que atendam a nova composição dos requisitos. Também é importante a presença dos desenvolvedores nessa tarefa, principalmente os que estiveram envolvidos com a feature. Como principais critérios se têm:</p>
+<ul>
+<li>Pontuação de história muito discrepantes para uma história específica</li>
+<li>Mudança nos requisitos relacionado a uma história ou feature específica</li>
+<li>Dividas técnicas</li>
+</ul>
+<h2 id="precedencia-e-prioridade">Precedência e prioridade</h2>
+<p>A principal função do produto é ser uma plataforma de notícias e eventos relevantes, logo essa seria a maior prioridade e, em segundo lugar, estaria uma parte da plataforma que permitisse a usuários não habituados com o ambiente da FGA, principalmente caloutos, pudessem ter acesso a informações relevantes a eles, como mapa do campus, explicação de cada localização e possivelmente fotos. O projeto também visa possibilitar um maior contato entre os discentes da faculdade e as organizações de alunos, como as empresas juniores e as equipes de competição. Como última prioridade, se tem a possibilidade de criar uma plataforma onde pessoas possam criar e interagir em fóruns.</p>
+<h2 id="referencias">Referências</h2>
+<ul>
+<li>DOCUMENTO de Visão. [S. l.], 2014. Disponível em: <a href="https://www.ibm.com/support/knowledgecenter/pt-br/SSWMEQ_4.0.6/com.ibm.rational.rrm.help.doc/topics/r_vision_doc.html">Visão IBM</a>. Acesso em: 17 fev. 2021.</li>
+<li>BOURQUE, P.; FAIRLEY, R.E. SWEBOK: Guide to the Software Engineering Body of Knowledge. 3.0. ed. [S. l.]: IEEE Computer Society, 2014. Disponível em: <a href="https://www.computer.org/education/bodies-of-knowledge/software-engineering">Swebok</a>. Acesso em: 17 fev. 2021.</li>
+</ul>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+        
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        <a href=".." class="md-footer__link md-footer__link--prev" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Anterior
+              </span>
+              Início
+            </div>
+          </div>
+        </a>
+      
+      
+        <a href="../documento-de-arquitetura/" class="md-footer__link md-footer__link--next" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Próximo
+              </span>
+              Documento de Arquitetura
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+        
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.instant"], "translations": {"clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "search.config.lang": "pt", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Buscar", "search.result.placeholder": "Digite para iniciar a busca", "search.result.none": "Nenhum resultado encontrado", "search.result.one": "1 resultado encontrado", "search.result.other": "# resultados encontrados", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}, "search": "../assets/javascripts/workers/search.fe42c31b.min.js", "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.7353b375.min.js"></script>
+      
+    
+  </body>
+</html>
