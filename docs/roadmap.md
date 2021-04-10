@@ -58,11 +58,13 @@
 * Revisão da documentação 
 
 ### Sprint 8 (12/04 - 18/04)
-* CRUD EJ/EC/Lab → **US17, US18 e US19**
+* Criar EJ/EC/Lab → **US17**
+* Criar tópicos de discussão no fórum → **US20**
 * Filtrar publicações → **US08**
 
 ### Sprint 9 (19/04 - 25/04)
-* CRUD tópicos de discussão no fórum → **US20, US21 e US23**
+* RUD de EJ/EC/Lab →  **US21 e US23** 
+* RUD de tópicos de discussão → **US18 e US19**
 * Enviar denúncia de notícias → **US10**
 
 ### Sprint 10 (26/04 - 02/05)
